@@ -4,10 +4,14 @@ public class Film {
     String name;
     int yearOfRelease;
     boolean includedInThePlan;
-    double assessment;
-    int totalAssessment;
+    private double assessment;
+    private int totalAssessment;
     int durationInMinutes;
 
+
+    int getTotalAssessment(){
+        return totalAssessment; 
+    }
 
     void displayTechnicalSpecifications(){
         System.out.println("Name of film: " + name);

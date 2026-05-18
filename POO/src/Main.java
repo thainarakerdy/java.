@@ -14,8 +14,8 @@ public class Main {
         myFilm.evaluate( 10);
         myFilm.evaluate( 5);
 
-        System.out.println(myFilm.assessment);
-        System.out.println(myFilm.totalAssessment);
+       // System.out.println(myFilm.assessment);
+       // System.out.println(myFilm.totalAssessment);
         System.out.println(myFilm.media());
     }
 }
