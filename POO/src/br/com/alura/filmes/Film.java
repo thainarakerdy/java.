@@ -1,24 +1,29 @@
+package br.com.alura.filmes;
+
 public class Film {
 
 
-    String name;
-    int yearOfRelease;
-    boolean includedInThePlan;
+    private String name;
+    private int yearOfRelease;
+    private boolean includedInThePlan;
     private double assessment;
     private int totalAssessment;
-    int durationInMinutes;
+    private int durationInMinutes;
 
+    public void setName(String name) {
+        this.name = name;
+    }
 
-    int getTotalAssessment(){
+    public int getTotalAssessment(){
         return totalAssessment; 
     }
 
-    void displayTechnicalSpecifications(){
+    public void displayTechnicalSpecifications(){
         System.out.println("Name of film: " + name);
         System.out.println("Year of release: " + yearOfRelease);
     }
 
-    void evaluate(double note){
+    public void evaluate(double note){
         assessment += note;
         totalAssessment ++;
     }

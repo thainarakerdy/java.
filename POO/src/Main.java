@@ -1,3 +1,5 @@
+import br.com.alura.filmes.Film;
+
 import java.util.Scanner;
 
 public class Main {
