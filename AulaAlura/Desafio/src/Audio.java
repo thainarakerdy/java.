@@ -10,7 +10,6 @@ public class Audio {
 
     public void ficha(){
         System.out.println("Título: " + titulo);
-        System.out.println("Artista: " + artista);
         System.out.println("Duração: " + duracao);
         System.out.println("Total de reproduções: " + totalDeReproducoes);
         System.out.println("Curtidas: " + curtidas);
