@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch;
+package br.com.alura.screenmatch.modelos;
 
 public class Titulo {
 
@@ -10,10 +10,10 @@ public class Titulo {
         private int totalDeAvaliacoes;
 
         public void exibeFichaTecnica() {
-            System.out.println("Nome do filme: " +nome);
-            System.out.println("Ano de lançamento: " +anoDeLancamento);
-            System.out.println("Duração em minutos: " +duracaoEmMinutos);
-            System.out.println("Incluído no plano: " +incluidoNoPlano);
+            System.out.println("Nome: " +nome);
+            System.out.println("Ano de lançamento: " + anoDeLancamento);
+            System.out.println("Duração em minutos: " + getDuracaoEmMinutos());
+            System.out.println("Incluído no plano: " + incluidoNoPlano);
         }
 
         public void avalia(double nota) {
